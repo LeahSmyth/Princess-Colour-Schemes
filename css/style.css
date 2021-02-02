@@ -1,0 +1,67 @@
+* {padding:0em;
+margin:0;
+font-size:100%;
+line-height:1em;}
+
+/*---Images---*/
+
+.logo{width:26%; padding:3% 37% 4% 37%;}
+
+.Princesses{padding-left:7%; padding-right:7%;}
+
+.colour-scheme{width:18em;} 
+
+ul {list-style-type:none; margin:0; padding:1em 0em 1em 0em;}
+
+ul li {display:inline-block; margin:0 4em 5em 0; position:relative;}
+
+
+/*---Footer---*/
+
+footer{font-family:'Open Sans',sans-serif; 
+        padding:0 0 1% 0; 
+        font-size:.9em; 
+        text-align:center; 
+        text-decoration:none; 
+        color:#000000;}
+
+.footer{text-decoration:none; text-decoration:none;}
+
+.website{padding-bottom:3em; text-decoration:none; color:#D2487A;}
+
+.website:hover{font-weight:bold; text-decoration:none;}
+
+.footer li {display:inline; margin:1%;}
+
+/*----MEDIA QUERIES-----*/
+
+/*---TABLET---*/
+
+.logo{width:40%; padding:6% 30% 4% 30%;}
+
+.Princesses{padding-left:8%; padding-right:6%;}
+
+.colour-scheme{width:17em;} 
+
+ul li {display:inline-block; margin:0 3em 4em 0; position:relative;}
+
+footer{padding:0 0 1% 0; font-size:.9em; }
+
+.website{padding-bottom:2em;}
+}
+	
+/*---SMARTPHONE---*/
+
+@media (max-width:414px) {
+    
+.logo{width:50%; padding:3% 25% 4% 25%;}
+
+.Princesses{padding-left:20%; padding-right:20%;}
+
+.colour-scheme{width:17em;} 
+
+ul {list-style-type:none; margin:0; padding:1em 0em 1em 0em;}
+
+ul li {display:inline-block; margin:0 4em 5em 0; position:relative;}
+
+}
